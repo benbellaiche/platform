@@ -33,6 +33,7 @@ Follow these instructions to compile and install the library:
 git clone https://github.com/Pulse-Eight/platform.git
 cd platform
 git submodule update --init --recursive
+git submodule foreach git pull origin master
 cd 
 build.cmd
 ```
